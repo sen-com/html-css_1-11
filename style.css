@@ -188,9 +188,10 @@ nav li a:hover{
     padding-bottom: 20px;
 }
 
-.content-container {
+.contact-container {
     width: 800px;
     margin: 0 auto;
+    padding-bottom: 90px;
 }
 .content-width {
     max-width: 400px;
@@ -208,7 +209,10 @@ nav li a:hover{
 .icon-pd {
     padding: 0 20px;
 }
-
+#contact .a {
+    color: #000;
+    text-decoration: underline;
+}
 footer {
     width: 100%;
     height: 60px;
@@ -243,6 +247,7 @@ footer {
         width: 40px;
         height: 40px;
         margin: 5px 0;
+        margin-right: 5%;
         cursor: pointer;
         background-color: #ec715f;
         border: 1px solid white;
@@ -250,9 +255,9 @@ footer {
     }
     .ham_line {
         position: absolute;
-        left: 10px;
-        width: 20px;
-        height: 1px;
+        left: 8px;
+        width: 22px;
+        height: 2px;
         background-color:white;
         
     }
@@ -283,6 +288,7 @@ footer {
         text-align: center;
         background-image: url(img/code.png);
         background-size: cover;
+        background-position: center;
     }
     .main-visual-text {
         padding-top: 200px;
@@ -297,6 +303,7 @@ footer {
     }
     #portforio {
         width: 100%;
+        padding: 0 5%;
         background-color: #eceff1;
     }
     .portfolio-container {
@@ -351,7 +358,9 @@ footer {
         margin: 0 auto;
     }
     
-    
+    #feature {
+        margin: 0 5%;
+    }
     .feature-container {
         width: 90%;
         margin: 0 auto;
@@ -383,6 +392,7 @@ footer {
     
     #profile {
         background-color: #eceff1;
+        padding: 0 5%;
     }
     .profile-container {
         width: 90%;
@@ -417,7 +427,10 @@ footer {
         padding-bottom: 20px;
     }
     
-    .content-container {
+    #contact {
+        padding: 0 5%;
+    }
+    .contact-container {
         width: 90%;
         margin: 0 auto;
     }
@@ -442,7 +455,6 @@ footer {
     .icon-pd {
         padding: 0 20px;
     }
-    
     footer {
         width: 100%;
         height: 60px;
